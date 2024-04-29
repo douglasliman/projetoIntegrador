@@ -8,7 +8,6 @@ import { AuthProvider } from "./contexts/AuthContext";
 import ListaCategoria from "./components/categorias/listaCategorias/ListaCategorias";
 import FormularioEditarCategoria from "./components/categorias/formularioCategoria/FormularioEditarCategoria";
 import FormularioCadastrarCategoria from "./components/categorias/formularioCategoria/FormularioCadastrarCategoria";
-import DeletarCategoria from "./components/categorias/deletarCategoria/DeletarCategoria";
 import ListaProdutos from "./components/produtos/listaProdutos/ListaProdutos";
 import FormularioEditarProduto from "./components/produtos/formularioProduto/FormularioEditarProduto";
 import FormularioCadastrarProduto from "./components/produtos/formularioProduto/FormularioCadastrarProduto";
@@ -18,6 +17,7 @@ import Perfil from "./pages/perfil/Perfil";
 import SobreNos from "./pages/sobrenos/SobreNos";
 import NotFound from "./pages/404/NotFound";
 import Footer from "./components/footer/Footer";
+import DeletarCategoria from "./components/categorias/deletarCategoria/DeletarCategoria";
 
 function App() {
   return (
