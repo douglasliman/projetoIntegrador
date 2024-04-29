@@ -1,0 +1,14 @@
+.btn-buy {
+    background: #209B38;
+    margin: 0 20px;
+}
+
+.name-produto {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.border {
+    height: fit-content;
+    height: 500px;
+}

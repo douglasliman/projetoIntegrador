@@ -1,0 +1,21 @@
+.home {
+    height: 100vh;
+}
+
+.produtos {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.produtos-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.acessar-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 20px;
+}
