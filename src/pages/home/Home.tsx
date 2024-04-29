@@ -36,7 +36,7 @@ function Home() {
           </div>
           {/* Exibe os cards de produto */}
           <div className="flex gap-3 flex-wrap py-8 justify-center items-center produtos">
-            {produtos.slice(0, 8).map((produto) => (
+            {(produtos as { id: string }[]).slice(0, 8).map((produto) => (
               <CardProduto key={produto.id} produto={produto} />
             ))}
           </div>

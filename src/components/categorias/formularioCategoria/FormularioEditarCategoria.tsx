@@ -6,8 +6,7 @@ import { atualizar, buscar } from "../../../services/Service";
 
 function FormularioEditarCategoria() {
   const [categoria, setCategoria] = useState<Categoria>({} as Categoria);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [foto, setFoto] = useState<string | null>(null); // Altera para string
+
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
   const categoriaId = parseInt(id ?? "");

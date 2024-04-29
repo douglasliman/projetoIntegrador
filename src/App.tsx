@@ -17,7 +17,8 @@ import Perfil from "./pages/perfil/Perfil";
 import SobreNos from "./pages/sobrenos/SobreNos";
 import NotFound from "./pages/404/NotFound";
 import Footer from "./components/footer/Footer";
-import DeletarCategoria from "./components/categorias/deletarCategoria/DeletarCategoria";
+import DeletarProduto from './components/produtos/deletarProduto/DeletarProduto';
+
 
 function App() {
   return (
