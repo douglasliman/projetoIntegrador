@@ -1,24 +1,22 @@
-//import React from "react";
-import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AuthProvider } from "./contexts/AuthContext";
+import Navbar from "./components/navbar/Navbar";
 import Login from "./pages/login/Login";
 import Cadastro from "./pages/cadastro/Cadastro";
 import Home from "./pages/home/Home";
-import { AuthProvider } from "./contexts/AuthContext";
-import ListaCategoria from "./components/categorias/listaCategorias/ListaCategorias";
-import FormularioEditarCategoria from "./components/categorias/formularioCategoria/FormularioEditarCategoria";
 import FormularioCadastrarCategoria from "./components/categorias/formularioCategoria/FormularioCadastrarCategoria";
+import ListaCategorias from "./components/categorias/listaCategorias/ListaCategorias";
+import FormularioEditarCategoria from "./components/categorias/formularioCategoria/FormularioEditarCategoria";
+import DeletarCategoria from "./components/categorias/deletarCategoria/DeletarCategoria";
 import ListaProdutos from "./components/produtos/listaProdutos/ListaProdutos";
+import SobreNos from "./pages/sobrenos/SobreNos";
+import Perfil from "./pages/perfil/Perfil";
 import FormularioEditarProduto from "./components/produtos/formularioProduto/FormularioEditarProduto";
 import FormularioCadastrarProduto from "./components/produtos/formularioProduto/FormularioCadastrarProduto";
-import DeletarProduto from "./components/produtos/deletarProduto/DeletarProduto";
 import ProdutoPage from "./pages/product/ProductPage";
-import Perfil from "./pages/perfil/Perfil";
-import SobreNos from "./pages/sobrenos/SobreNos";
+import DeletarProduto from "./components/produtos/deletarProduto/DeletarProduto";
 import NotFound from "./pages/404/NotFound";
 import Footer from "./components/footer/Footer";
-import DeletarProduto from './components/produtos/deletarProduto/DeletarProduto';
-
 
 function App() {
   return (
@@ -32,7 +30,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/cadastro" element={<Cadastro />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/categorias" element={<ListaCategoria />} />
+              <Route path="/categorias" element={<ListaCategorias />} />
               <Route
                 path="/cadastrarCategoria"
                 element={<FormularioCadastrarCategoria />}
