@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Destaques.css";
 import sideDown from "../../../assets/sidedown.png";
 import sideTop from "../../../assets/sidetop.png";
