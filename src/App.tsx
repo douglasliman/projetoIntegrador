@@ -1,6 +1,5 @@
 //import React from "react";
 import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Cadastro from "./pages/cadastro/Cadastro";
@@ -18,8 +17,7 @@ import ProdutoPage from "./pages/product/ProductPage";
 import Perfil from "./pages/perfil/Perfil";
 import SobreNos from "./pages/sobrenos/SobreNos";
 import NotFound from "./pages/404/NotFound";
-
-
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -60,7 +58,6 @@ function App() {
               <Route path="/deletarProduto/:id" element={<DeletarProduto />} />
               <Route path="/pageProduto/:id" element={<ProdutoPage />} />
               <Route path="*" element={<NotFound />} />
-              
             </Routes>
           </div>
           <Footer />
