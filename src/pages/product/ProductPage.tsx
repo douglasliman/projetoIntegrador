@@ -40,7 +40,7 @@ const ProdutoPage = () => {
 
   if (!produto) return <div>Produto não encontrado.</div>;
   const handleVoltar = () => {
-    history.goBack();
+    history.back();
   };
   return (
     <div className="container mx-auto my-5">
